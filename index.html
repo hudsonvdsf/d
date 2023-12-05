@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!----------- ↓ Bootstrap Bundle ↓ ------------------------------------------------>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!----------- ↓ Bootstrap Icons ↓ ------------------------------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <!---------- ↓ Arquivo Css ↓ -------------------------------------------------------->
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <title>🏡 CJ Imóveis Brasília</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <nav class="navbar navbar-expand-lg bg-white">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./assets/logo/A.png" class="logoNavbar" alt="..." />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link nav-link-ltr active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link-ltr" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link-ltr" href="#">Imóveis</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link-ltr" href="#">Contato</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link-ltr disabled" aria-disabled="true">Blog</a>
+                </li>
+              </ul>
+            </div>
+            <div class="divFinalNav">
+              </button>
+              <a href="#">
+                <button class="btn text-white navBtnEntrar">Entrar</button>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./assets/images/banner.jpg"
+                class="d-block w-100 imagemHeroBanner"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/images/thandy-yung-40sPNStw_40-unsplash.jpg"
+                class="d-block w-100 imagemHeroBanner imgPosit2"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/images/Fbanner.jpg"
+                class="d-block w-100 imagemHeroBanner imgPosit1"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="featured">
+        <div class="featured bg-body-secondary">
+          <div class="imagemFeatured">
+            <img src="./assets/logo/removebg01.png" alt="" />
+          </div>
+          <div class="divFeatured">
+            <h1>Seu Imóvel dos sonhos em Brasília</h1>
+            <p>
+              Somos especializados em imóveis com mais de 15 anos trabalhando no
+              mercado de propriedades no DF e região, temos de todos os
+              tamanhos, tipos, locais e funções; basta escolher seu próximo
+              imóvel que a nossa equipe de consultores vai entrar em contato
+              para fazer acontecer! Clique nos ícones abaixo para refinar a sua
+              busca...
+            </p>
+          </div>
+          <div class="container">
+            <div class="cardsFeatured">
+              <div class="card card1">
+                <div class="card-body">
+                  <img
+                    src="./assets/images/hero/h2.png"
+                    class="iconeCard"
+                    alt=""
+                  />
+                  <br />
+                  <h5 class="card-title text-center card1h5">
+                    Casas para <br />
+                    a família toda
+                  </h5>
+                  <br />
+                  <h6 class="text-center card1h6">51 imóveis</h6>
+                </div>
+              </div>
+
+              <div class="card card2">
+                <div class="card-body">
+                  <img
+                    src="./assets/images/hero/h3.png"
+                    class="iconeCard"
+                    alt=""
+                  />
+                  <br />
+                  <h5 class="card-title text-center card2h5">
+                    Condomínios, <br />
+                    apartamentos, studios
+                  </h5>
+                  <br />
+                  <h6 class="text-center card2h6">51 imóveis</h6>
+                </div>
+              </div>
+
+              <div class="card card3">
+                <div class="card-body">
+                  <img
+                    src="./assets/images/hero/h4.png"
+                    class="iconeCard"
+                    alt=""
+                  />
+                  <br />
+                  <h5 class="card-title text-center card3h5">
+                    Salas, comerciais,<br />
+                    escritórios
+                  </h5>
+                  <br />
+                  <h6 class="text-center card3h6">51 imóveis</h6>
+                </div>
+              </div>
+
+              <div class="card card4">
+                <div class="card-body">
+                  <img
+                    src="./assets/images/hero/h1.png"
+                    class="iconeCard"
+                    alt=""
+                  />
+                  <br />
+                  <h5 class="card-title text-center card4h5">
+                    Fora do DF,<br />
+                    outros estados
+                  </h5>
+                  <br />
+                  <h6 class="text-center card4h6">51 imóveis</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="destaque">
+        <div class="destaque">
+          <div class="divFeatured">
+            <h1>Propriedades em Destaque</h1>
+            <p>
+              As ofertas de imóveis em destaque, eles são os mais queridinhos,
+              são os que estão com descontos especiais e os mais novos imóveis
+              da nossa plataforma; confira alguns deles nos anúncios abaixo...
+            </p>
+          </div>
+          <div class="destaqueCard">
+            <div
+              class="destaqueCardGrupo1 d-flex gap-5 justify-content-center mt-5"
+            >
+              <div class="card">
+                <img
+                  src="./assets/images/list/p-1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div class="mb-2">
+                    <a
+                      href="/assets/pages/imoveis/imoveis.html"
+                      class="btn disabled btnOferta"
+                      tabindex="-1"
+                      role="button"
+                      aria-disabled="true"
+                      >Oferta</a
+                    >
+                    <i
+                      class="bi bi-heart-fill heartDestaque"
+                      style="color: rgb(6, 71, 96)"
+                    ></i>
+                  </div>
+                  <h5 class="card-title h5CardDestaque">
+                    Apartamento 2 quartos 67m² Águas Claras
+                  </h5>
+                  <p class="card-text pCardDestaque">
+                    <i class="bi bi-pin-map-fill"></i>&nbsp; Rua 20 sul, número
+                    26
+                  </p>
+                  <div class="d-flex justify-content-between">
+                    <a
+                      href="/assets/pages/imoveis/imoveis.html"
+                      class="btn btn-success px-4"
+                      >R$ 340.000</a
+                    >
+                    <p class="p2CardDestaque pt-2">/ Apartamentos</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  src="./assets/images/list/p-2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div class="mb-2">
+                    <a
+                      href="/assets/pages/imoveis/imoveis.html"
+                      class="btn disabled btnAvenda"
+                      tabindex="-1"
+                      role="button"
+                      aria-disabled="true"
+                      >À Venda</a
+                    >
+                    <i
+                      class="bi bi-heart-fill heartDestaque"
+                      style="color: rgb(6, 71, 96)"
+                    ></i>
+                  </div>
+                  <h5 class="card-title h5CardDestaque">
+                    Sala comercial, quadra central sobradinho
+                  </h5>
+                  <p class="card-text pCardDestaque">
+                    <i class="bi bi-pin-map-fill"></i>&nbsp; Edifício José
+                    Gusmão, sala 402
+                  </p>
+                  <div class="d-flex justify-content-between">
+                    <a
+                      href="/assets/pages/imoveis/imoveis.html"
+                      class="btn btn-success px-4"
+                      >R$ 294.000</a
+                    >
+                    <p class="p2CardDestaque pt-2">/ Salas</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <img
+                  src="./assets/images/list/p-4.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div class="mb-2">
+                    <a
+                      href="/assets/pages/imoveis/imoveis.html"
+                      class="btn disabled btnAvenda"
+                      tabindex="-1"
+                      role="button"
+                      aria-disabled="true"
+                      >À Venda</a
+                    >
+                    <i
+                      class="bi bi-heart-half heartDestaque"
+                      style="color: rgb(6, 71, 96)"
+                    ></i>
+                  </div>
+                  <h5 class="card-title h5CardDestaque">
+                    Studio 29m², quadra central sobradinho
+                  </h5>
+                  <p class="card-text pCardDestaque">
+                    <i class="bi bi-pin-map-fill"></i>&nbsp; Quadra 12, conj B,
+                    apto 102
+                  </p>
+                  <div class="d-flex justify-content-between">
+                    <a
+                      href="/assets/pages/imoveis/imoveis.html"
+                      class="btn btn-success px-4"
+                      >R$ 340.000</a
+                    >
+                    <p class="p2CardDestaque pt-2">/ Studios</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="destaqueCardGrupo1 d-flex gap-5 justify-content-center mt-5"
+            >
+              <div class="card">
+                <img
+                  src="./assets/images/list/p-5.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div class="mb-2">
+                    <a
+                      href="/assets/pages/imoveis/imoveis.html"
+                      class="btn disabled btnAvenda"
+                      tabindex="-1"
+                      role="button"
+                      aria-disabled="true"
+                      >Á Venda</a
+                    >
+                    <i
+                      class="bi bi-heart-half heartDestaque"
+                      style="color: rgb(6, 71, 96)"
+                    ></i>
+                  </div>
+                  <h5 class="card-title h5CardDestaque">
+                    Apartamento 2 quartos, com suíte e lavabo
+                  </h5>
+                  <p class="card-text pCardDestaque">
+                    <i class="bi bi-pin-map-fill"></i>&nbsp; Condomínio Alto da
+                    Boa Vista
+                  </p>
+                  <div class="d-flex justify-content-between">
+                    <a
+                      href="/assets/pages/imoveis/imoveis.html"
+                      class="btn btn-success px-4"
+                      >R$ 400.000</a
+                    >
+                    <p class="p2CardDestaque pt-2">/ Condomínios</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="./assets/images/list/p-6.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div class="mb-2">
+                    <a
+                      href="/assets/pages/imoveis/imoveis.html"
+                      class="btn disabled btnOferta"
+                      tabindex="-1"
+                      role="button"
+                      aria-disabled="true"
+                      >Oferta</a
+                    >
+                    <i
+                      class="bi bi-heart-fill heartDestaque"
+                      style="color: rgb(6, 71, 96)"
+                    ></i>
+                  </div>
+                  <h5 class="card-title h5CardDestaque">
+                    Casa 5 quartos, suítes, quadra 8, sobradinho
+                  </h5>
+                  <p class="card-text pCardDestaque">
+                    <i class="bi bi-pin-map-fill"></i>&nbsp; Quadra 8, conj B
+                    casa 20
+                  </p>
+                  <div class="d-flex justify-content-between">
+                    <a
+                      href="/assets/pages/imoveis/imoveis.html"
+                      class="btn btn-success px-4"
+                      >R$ 740.000</a
+                    >
+                    <p class="p2CardDestaque pt-2">/ Casas</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="./assets/images/list/p-7.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <div class="mb-2">
+                    <a
+                      href="/assets/pages/imoveis/imoveis.html"
+                      class="btn disabled btnAvenda"
+                      tabindex="-1"
+                      role="button"
+                      aria-disabled="true"
+                      >Á Venda</a
+                    >
+                    <i
+                      class="bi bi-heart-half heartDestaque"
+                      style="color: rgb(6, 71, 96)"
+                    ></i>
+                  </div>
+                  <h5 class="card-title h5CardDestaque">
+                    Casa 4 quartos, 2 suítes e 2 banheiros completos
+                  </h5>
+                  <p class="card-text pCardDestaque">
+                    <i class="bi bi-pin-map-fill"></i>&nbsp; Condomínio Alto da
+                    Boa Vista
+                  </p>
+                  <div class="d-flex justify-content-between">
+                    <a
+                      href="/assets/pages/imoveis/imoveis.html"
+                      class="btn btn-success px-4"
+                      >R$ 1.000.000</a
+                    >
+                    <p class="p2CardDestaque pt-2">/ Condomínios</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="awards">
+        <div class="awards">
+          <div class="divFeatured">
+            <h1 class="awardsH1Titulo">Sucesso nas Vendas</h1>
+            <p class="awardsPTitulo">
+              Mais de 1000+ clientes satisfeitos e que continuam em contato<br />
+              conosco fazendo novos negócios de sucesso!
+            </p>
+          </div>
+          <div class="awardsIcones d-flex justify-content-evenly">
+            <div class="iconeEtexto text-center">
+              <div class="divIconeEtexto">
+                <i class="bi bi-trophy-fill"></i>
+              </div>
+              <h2 class="mt-3 text-white">132</h2>
+              <p class="textoGrey mt-2 flex-wrap awardsPzinho">
+                milhões em vendas acumuladas
+              </p>
+            </div>
+
+            <div class="iconeEtexto text-center">
+              <div class="divIconeEtexto">
+                <i class="bi bi-suitcase-lg-fill"></i>
+              </div>
+              <h2 class="mt-3 text-white">387</h2>
+              <p class="mt-2 flex-wrap textoGrey">negócios recorrentes</p>
+            </div>
+
+            <div class="iconeEtexto text-center">
+              <div class="divIconeEtexto">
+                <i class="bi bi-lightbulb-fill"></i>
+              </div>
+              <h2 class="mt-3 text-white">461</h2>
+              <p class="textoGrey mt-2 flex-wrap">
+                aluguéis de imóveis comerciais
+              </p>
+            </div>
+
+            <div class="iconeEtexto text-center">
+              <div class="divIconeEtexto">
+                <i class="bi bi-heart-fill"></i>
+              </div>
+              <h2 class="mt-3 text-white">12</h2>
+              <p class="textoGrey mt-2 flex-wrap">cidades abrangidas</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="location">
+        <div class="location">
+          <div class="divFeatured">
+            <h1>Escolha por Localização</h1>
+            <p>
+              Achar seu próximo imóvel por região pode ser facilitado filtrando
+              a sua busca e escolhendo com mais tranquilidade o local adequado
+              de interesse...
+            </p>
+          </div>
+
+          <div class="locationCards">
+            <div class="container">
+              <div
+                class="locationCardGroup d-flex justify-content-center gap-5"
+              >
+                <div class="card rounded-3">
+                  <img
+                    src="./assets/images/location/city-1.png"
+                    class="card-img-top rounded-3"
+                    alt="..."
+                  />
+                  <div class="card-img-overlay">
+                    <p class="card-text text-white text-bottom">
+                      Sobradinho e condomínios
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card rounded-3">
+                  <img
+                    src="./assets/images/location/city-4.png"
+                    class="card-img-top rounded-3"
+                    alt="..."
+                  />
+                  <div class="card-img-overlay">
+                    <p class="card-text text-white text-bottom">
+                      Asa Norte, Asa Sul, Lago Norte, Lago Sul
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card rounded-3">
+                  <img
+                    src="./assets/images/location/city-5.png"
+                    class="card-img-top rounded-3"
+                    alt="..."
+                  />
+                  <div class="card-img-overlay">
+                    <p class="card-text text-white text-bottom">
+                      Águas Claras, Taguatinga e região
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="locationCardGroup d-flex justify-content-center gap-5 mt-5"
+              >
+                <div class="card rounded-3">
+                  <img
+                    src="./assets/images/location/city-6.png"
+                    class="card-img-top rounded-3"
+                    alt="..."
+                  />
+                  <div class="card-img-overlay">
+                    <p class="card-text text-white">
+                      Sudoeste, Cruzeiro, Guará, ParkSul
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card rounded-3">
+                  <img
+                    src="./assets/images/location/city-3.png"
+                    class="card-img-top rounded-3"
+                    alt="..."
+                  />
+                  <div class="card-img-overlay">
+                    <p class="card-text text-white text-bottom">
+                      Planaltina, Ceilândia, Samambaia e região
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card rounded-3">
+                  <img
+                    src="./assets/images/location/city-2.png"
+                    class="card-img-top rounded-3"
+                    alt="..."
+                  />
+                  <div class="card-img-overlay">
+                    <p class="card-text text-white text-bottom">
+                      Outros Estados,<br />
+                      fora do DF
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="time">
+        <div class="time">
+          <div class="divFeatured">
+            <h1>Nossas melhores corretoras</h1>
+            <p>
+              Equipe especializada na venda e aluguel de imóveis em Brasília,
+              super qualificadas e com bastante atenção aos detalhes de cada
+              imóvel visitado. Conte com elas sempre!
+            </p>
+          </div>
+
+          <div class="timeCard d-flex justify-content-center gap-5">
+            <div class="card bg-white">
+              <a
+                href="/assets/pages/imoveis/imoveis.html"
+                class="btn disabled btnImoveis col-5 m-3"
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                >152 imóveis</a
+              >
+
+              <img
+                alt=""
+                class="timeImg mt-3 mb-3"
+                src="./assets/images/hero/cl.jpeg"
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-center mb-3">Cléia Leda</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary text-center">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  Brasília
+                </h6>
+                <p class="mt-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  deleniti, quia non fuga libero at.
+                </p>
+                <div class="timeSociais d-flex justify-content-evenly mt-4">
+                  <a href="#" class="text-decoration-none">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                  <a href="#" class="text-success text-decoration-none">
+                    <i class="bi bi-whatsapp"></i>
+                  </a>
+                  <a href="#" class="text-decoration-none timeInstag">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                </div>
+                <div class="text-center mt-1">
+                  <a href="#" class="btn btn-primary mt-3 p-3 px-5">
+                    <i class="bi bi-envelope-fill"></i>
+                    &nbsp; Email
+                  </a>
+                  <a
+                    href="#"
+                    class="btn btn-secondary m-3 timeBtnPhone p-3 px-4"
+                  >
+                    <i class="bi bi-telephone-fill"></i>
+                  </a>
+                </div>
+                <br />
+              </div>
+            </div>
+
+            <div class="card bg-white">
+              <a
+                href="/assets/pages/imoveis/imoveis.html"
+                class="btn disabled btnImoveis col-5 m-3"
+                tabindex="-1"
+                role="button"
+                aria-disabled="true"
+                >126 imóveis</a
+              >
+
+              <img
+                alt=""
+                class="timeImg mt-3 mb-3"
+                src="./assets/images/hero/jo.jpeg"
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-center mb-3">Joanice Martins</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary text-center">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  Brasília
+                </h6>
+                <p class="mt-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  deleniti, quia non fuga libero at.
+                </p>
+                <div class="timeSociais d-flex justify-content-evenly mt-4">
+                  <a href="#" class="text-decoration-none">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                  <a href="#" class="text-success text-decoration-none">
+                    <i class="bi bi-whatsapp"></i>
+                  </a>
+                  <a href="#" class="text-decoration-none timeInstag">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                </div>
+                <div class="text-center mt-1">
+                  <a href="#" class="btn btn-primary mt-3 p-3 px-5">
+                    <i class="bi bi-envelope-fill"></i>
+                    &nbsp; Email
+                  </a>
+                  <a
+                    href="#"
+                    class="btn btn-secondary m-3 timeBtnPhone p-3 px-4"
+                  >
+                    <i class="bi bi-telephone-fill"></i>
+                  </a>
+                </div>
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cta">
+        <div class="cta">
+          <div class="d-flex justify-content-evenly">
+            <div class="ctaTexto">
+              <h1>Entre em Contato</h1>
+              <p>
+                Nosso time vai ficar feliz em ajudar você ao realizar seu sonho!
+              </p>
+            </div>
+            <button id="btnCta" class="btn rounded-5">
+              <i class="bi bi-telephone-fill"></i> &nbsp; Contato
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container d-flex">
+        <div class="col-6">
+          <div class="footerImg">
+            <img class="footerLogoImg" src="./assets/images/logo-light.png" />
+          </div>
+          <div class="footerTextoForm">
+            <h2>CJ Imóveis seu sonho realizado</h2>
+            <p>
+              Receba informações da nossa newsletter com as<br />
+              ofertas dos nossos melhores imóveis mensalmente.
+            </p>
+            <div class="footerForm">
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="CJ Imóveis Newsletter"
+                  aria-label="Recipient's username"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn btn-warning opacity-75 text-white"
+                  type="button"
+                  id="button-addon2"
+                >
+                  Inscrever-se
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 footerLinks">
+          <div class="d-flex justify-content-evenly">
+            <div class="">
+              <h3 class="mb-2">Links Úteis</h3>
+              <ul class="list-group list-group-flush bg-transparent text-white">
+                <li class="list-group-item bg-transparent text-white mt-3">
+                  <a href="#" class="text-decoration-none text-white">Home</a>
+                </li>
+                <li class="list-group-item bg-transparent text-white mt-3">
+                  <a href="#" class="text-decoration-none text-white">Sobre</a>
+                </li>
+                <li class="list-group-item bg-transparent text-white mt-2">
+                  <a href="#" class="text-decoration-none text-white">Blog</a>
+                </li>
+                <li class="list-group-item bg-transparent text-white mt-2">
+                  <a href="#" class="text-decoration-none text-white"
+                    >Imóveis</a
+                  >
+                </li>
+                <li class="list-group-item bg-transparent text-white mt-2">
+                  <a href="#" class="text-decoration-none text-white"
+                    >Destaques</a
+                  >
+                </li>
+                <li class="list-group-item bg-transparent text-white mt-2">
+                  <a href="#" class="text-decoration-none text-white"
+                    >Todos os imóveis</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="">
+              <h3 class="mb-3">Contatos</h3>
+              <ul class="list-group list-group-flush bg-transparent text-white">
+                <li class="list-group-item bg-transparent text-white mt-2">
+                  <a href="#" class="text-decoration-none text-white"
+                    >Contato</a
+                  >
+                </li>
+                <li class="list-group-item bg-transparent text-white mt-2">
+                  <a href="#" class="text-decoration-none text-white">
+                    <i class="bi bi-instagram"></i>
+                    &nbsp; cjimoveisbrasilia
+                  </a>
+                </li>
+                <li class="list-group-item bg-transparent text-white mt-2">
+                  <a href="#" class="text-decoration-none text-white">
+                    <i class="bi bi-facebook"></i>
+                    &nbsp; cjimoveisbrasilia
+                  </a>
+                </li>
+                <li class="list-group-item bg-transparent text-white mt-2">
+                  <a href="#" class="text-decoration-none text-white">
+                    <i class="bi bi-envelope-fill"></i>
+                    &nbsp; cjimoveisbrasilia@gmail.com
+                  </a>
+                </li>
+                <li class="list-group-item bg-transparent text-white mt-2">
+                  <a href="#" class="text-decoration-none text-white fs-4">
+                    <i class="bi bi-telephone-fill"></i>
+                    &nbsp; (61) 995746921<br />
+                    <i class="bi bi-telephone-fill"></i>
+                    &nbsp; (61) 996351266
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!----------- ↓ Arquivo Main Javascript ↓ ------------------------------------------->
+    <script src="./assets/main.js"></script>
+
+    <!-----------  ↓ Bootstrap Bundle JS & JQuery ↓  ------------------------------------->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!----------- ↓ Bootstrap Icons 6.4.2 Bundle ↓  ------------------------------------->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>

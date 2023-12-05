@@ -1,0 +1,391 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, body {
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-family: 'Public Sans', 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/***************** NAVBAR  *******************************************/
+
+.logoNavbar {
+    width: 140px;
+    height: 70px;
+}
+
+.navBtnEntrar {
+    background-color: #9d9214;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    transition: all 0.27s ease-out;
+}
+
+.navBtnEntrar:hover {
+    background-color: #2c2501;
+}
+
+.nav-link {
+    color: #003a44;
+    padding: 20px 0px;
+    margin: 0px 5px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+}
+
+.nav-link::before {
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: #003a44;
+}
+
+.nav-link-ltr::before {
+    width: 0%;
+    bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+    width: 80%;
+}
+
+/***************** HERO BANNER  *******************************************/
+
+.imagemHeroBanner {
+    height: 90vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.imgPosit1 {
+    object-position: 0 -200px;
+}
+
+.imgPosit2 {
+    object-position: 0 -230px;
+}
+
+/***************** FEATURED  *******************************************/
+
+.featured {
+    height: 150vh;
+    margin-top: -20px;
+    margin-bottom: 80px;
+}
+
+.imagemFeatured {
+    padding-top: 100px;
+    margin-left: 29%;
+}
+
+.imagemFeatured img {
+    height: 60%;
+    width: 60%;
+}
+
+.divFeatured {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.divFeatured h1 {
+    font-weight: 700;
+    color: #003a44;
+}
+
+.divFeatured p {
+    color: #262626;
+}
+
+.cardsFeatured {
+    max-width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.card {
+    box-shadow: 10px 10px 20px #8f8f8f;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 15rem;
+    background-color: #f5f7f9;
+}
+
+.iconeCard {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.card1h5, .card1h6 {
+    color: #27AE60;
+}
+
+.card2h5, .card2h6 {
+    color: #D9B910;
+}
+
+.card3h5, .card3h6 {
+    color: #A746D6;
+}
+
+.card4h5, .card4h6 {
+    color: #FF0101;
+}
+
+
+/***************** DESTAQUE  *******************************************/
+
+
+.destaque {
+    height: 100%;
+    margin-bottom: 180px;
+}
+
+.destaqueCard .card {
+    border-radius: 2px !important;
+    width: 24%;
+}
+
+.btnOferta {
+    opacity: 0.45 !important;
+    font-size: 13px !important;
+    color: #fff !important;
+    border: none !important;
+    background-color: #3c7956 !important;
+}
+
+.btnAvenda {
+    opacity: 0.45 !important;
+    font-size: 13px;
+    color: #fff !important;
+    background-color: #9d9214 !important;
+}
+
+.heartDestaque {
+    margin-left: 56%;
+}
+
+.h5CardDestaque {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+
+.pCardDestaque {
+    font-size: 14px;
+}
+
+.p2CardDestaque {
+    font-size: 11px;
+}
+
+/***************** AWARDS  *******************************************/
+
+
+.awards {
+    height: 60vh;
+    background-color: #003a44;
+}
+
+
+.awardsH1Titulo {
+    font-weight: 700;
+    color: #ffffff !important;
+}
+
+.awardsPTitulo {
+    color: #b5b5b5 !important;
+}
+
+.awardsIcones {
+    margin-top: 15%;
+}
+
+.iconeEtexto {
+    width: 90px;
+}
+
+.divIconeEtexto {
+    width: 80px;
+    height: 70px;
+    box-sizing: content-box;
+    padding-top: 10px;
+    padding-left: 2px;
+    position: relative;
+    background: goldenrod;
+    color: #003a44;
+    font-size: 28px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.divIconeEtexto:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 18px solid #003a44;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+}
+
+.textoGrey {
+    color: #989898;
+}
+
+
+/***************** LOCATION  *******************************************/
+
+.location {
+    height: 80vh;
+    margin-bottom: 180px;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.card-img-overlay p {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 52px;
+}
+
+.locationCardGroup .card {
+    width: 28%;
+}
+
+
+
+/*****************  TIME  *******************************************/
+
+.time {
+    height: 80vh;
+    margin-bottom: 180px;
+}
+
+
+.btnImoveis {
+    opacity: 0.45 !important;
+    font-size: 13px;
+    border: none !important;
+    border-radius: 25px !important;
+    color: #fff !important;
+    background-color: #958014 !important;
+}
+
+.timeCard .card {
+    width: 24%;
+}
+
+.timeImg {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.timeBtnPhone {
+    margin-bottom: 0.1px !important;
+    color: #fff;
+    background: #0C394C;
+}
+
+.timeInstag {
+    color: blueviolet;
+}
+
+
+
+/*****************  CTA  *******************************************/
+
+.cta {
+    height: 18vh;
+    background: #0C394C;
+}
+
+.ctaTexto {
+    margin-top: 60px;
+}
+
+.cta h1, .cta p {
+    color: #fff;
+}
+
+#btnCta {
+    margin-top: 50px;
+    padding: 20px 100px !important;
+    border-radius: 60px !important;
+    font-size: xx-large;
+    background: #C4942E;
+    color: #fff;
+} 
+
+
+/*****************  FOOTER  *******************************************/
+
+footer {
+    height: 40vh;
+    background-color: #262626;
+    color: #fff;
+}
+
+.footerLogoImg {
+    width: 233px;
+    height: 160px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer p {
+    font-size: 22px !important;
+}
+
+.footerLinks {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
