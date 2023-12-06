@@ -74,9 +74,11 @@
 /***************** FEATURED  *******************************************/
 
 .featured {
-    height: 215vh;
-    margin-top: -20px;
-    margin-bottom: 80px;
+    height: 100%;
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .imagemFeatured {
@@ -153,7 +155,10 @@
 
 .destaque {
     height: 100%;
-    margin-bottom: 180px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .destaqueCard .card {
@@ -198,10 +203,13 @@
 
 
 .awards {
-    height: 110%;
+    height: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: #003a44;
 }
-
 
 .awardsH1Titulo {
     font-weight: 700;
@@ -255,8 +263,11 @@
 /***************** LOCATION  *******************************************/
 
 .location {
-    height: 80vh;
-    margin-bottom: 180px;
+    height: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .card-img-overlay {
@@ -279,8 +290,11 @@
 /*****************  TIME  *******************************************/
 
 .time {
-    height: 80vh;
-    margin-bottom: 180px;
+    height: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 
@@ -319,7 +333,11 @@
 /*****************  CTA  *******************************************/
 
 .cta {
-    height: 18vh;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background: #0C394C;
 }
 
@@ -345,6 +363,10 @@
 
 footer {
     height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #262626;
     color: #fff;
 }
