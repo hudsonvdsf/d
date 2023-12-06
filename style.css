@@ -74,7 +74,7 @@
 /***************** FEATURED  *******************************************/
 
 .featured {
-    height: 210vh;
+    height: 215vh;
     margin-top: -20px;
     margin-bottom: 80px;
 }
@@ -198,7 +198,7 @@
 
 
 .awards {
-    height: 90vh;
+    height: 110%;
     background-color: #003a44;
 }
 
@@ -344,7 +344,7 @@
 /*****************  FOOTER  *******************************************/
 
 footer {
-    height: 40vh;
+    height: 100%;
     background-color: #262626;
     color: #fff;
 }
